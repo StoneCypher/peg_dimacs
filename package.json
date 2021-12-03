@@ -1,0 +1,30 @@
+{
+  "name": "peg_dimacs",
+  "version": "0.1.0",
+  "description": "DIMACS parser in Peg.JS for Javascript and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/peg_dimacs.git"
+  },
+  "keywords": [
+    "dimacs",
+    "peg",
+    "jest",
+    "integer",
+    "programming",
+    "constraint",
+    "smt",
+    "sat",
+    "stonecypher"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/peg_dimacs/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/peg_dimacs#readme"
+}
