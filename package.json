@@ -1,6 +1,6 @@
 {
   "name": "dimacs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DIMACS parser in Peg.JS for Javascript and Typescript",
   "main": "dimacs.cjs.js",
   "module": "dimacs.esm.js",

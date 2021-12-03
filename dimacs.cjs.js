@@ -157,7 +157,7 @@ function peg$parse(input, options) {
       peg$c10 = function(fmt, varcount, clausecount) { format = fmt;
           if (var_count !== undefined) { error('Only one configuration "p" row is permitted'); }
           var_count = varcount;
-          clause_count = varcount;
+          clause_count = clausecount;
           return ast('summary', { format, var_count, clause_count }); },
       peg$c11 = function(n1, f) { const claim = [n1, ...(f.map(fr => fr[1]))];
           claims.push(claim);

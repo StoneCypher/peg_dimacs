@@ -48,7 +48,7 @@ Type ".help" for more information.
 ... -3 -4 0`;
 undefined
 
-> const dimacs = require('.');
+> const dimacs = require('dimacs');
 undefined
 
 > dimacs.parse(data);
@@ -56,7 +56,7 @@ undefined
   format: 'cnf',
   comment: '\nstart with comments\n\n',
   var_count: 5,
-  clause_count: 5,
+  clause_count: 3,
   claims: [ [ 1, -5, 4, 0 ], [ -1, 5, 3, 4, 0 ], [ -3, -4, 0 ] ]
 }
 
