@@ -1,11 +1,12 @@
 {
   "name": "dimacs",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "DIMACS parser in Peg.JS for Javascript and Typescript",
-  "main": "dimacs.js",
+  "main": "dimacs.cjs.js",
+  "module": "dimacs.esm.js",
   "scripts": {
     "pegjs": "pegjs dimacs.pegjs",
-    "build": "rm -f dimacs.js && npm run pegjs",
+    "build": "rm -f dimacs.cjs.js && rm -f dimacs.esm.js && npm run pegjs && mv dimacs.js dimacs.cjs.js && node ./esmfix.js",
     "test": "jest"
   },
   "repository": {
