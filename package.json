@@ -1,9 +1,11 @@
 {
   "name": "peg_dimacs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DIMACS parser in Peg.JS for Javascript and Typescript",
-  "main": "index.js",
+  "main": "dimacs.js",
   "scripts": {
+    "pegjs": "pegjs dimacs.pegjs",
+    "build": "rm -f dimacs.js && npm run pegjs",
     "test": "jest"
   },
   "repository": {
@@ -26,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/StoneCypher/peg_dimacs/issues"
   },
-  "homepage": "https://github.com/StoneCypher/peg_dimacs#readme"
+  "homepage": "https://github.com/StoneCypher/peg_dimacs#readme",
+  "devDependencies": {
+    "pegjs": "^0.10.0"
+  }
 }
